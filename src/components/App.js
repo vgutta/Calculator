@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Display from "./Display";
 import ButtonPanel from "./ButtonPanel";
-import Calculate from "../math/calculate";
+import calculate from "../math/calculate";
+import logo from "../logo.svg";
 import './App.css';
 
 class App extends Component {

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import "./ButtonPanel.css";
 
 class ButtonPanel extends React.Component {
-    handleClick = ButtonName => {
+    handleClick = buttonName => {
         this.props.clickHandler(buttonName);
     };
 
